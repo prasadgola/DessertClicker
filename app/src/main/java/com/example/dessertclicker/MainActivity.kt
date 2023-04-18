@@ -68,6 +68,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate Called")
+
         setContent {
             DessertClickerTheme {
                 DessertClickerApp(desserts = dessertList)
